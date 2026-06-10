@@ -1,0 +1,25 @@
+a:link{
+    color: red; 
+    background-color:whitesmoke
+
+
+}
+a:visited{
+
+    color: darkviolet;
+}
+
+a:hover{
+
+color: #f504cd;
+background-color: rgba(253, 2, 178, 0.425);
+
+}
+
+a:active{
+
+    color: rgb(7, 1, 0);
+}
+
+
+

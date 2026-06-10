@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rowspan and colspan</title>
+     <style>
+        table,td,th{
+            border: 2px solid black;         
+            border-collapse:collapse ;   
+        }
+
+
+        table{
+            margin-top: 200px;
+            margin-left: 50px;
+            text-align: center;
+            width: 60%;
+            height: 300px;
+        }
+    </style>
+
+    <link rel="icon" href="images/tables.png">
+
+
+</head>
+<body>
+    <h2>Use of rowspan and colspan</h2>
+
+    <table >
+
+
+        <tr>
+            <th colspan="2"> Subject</th>
+            <th> John Doe</th>
+            <th> Miriam Luther</th>
+        </tr>
+
+
+
+
+        <tr>            
+            <th rowspan="2">Biology</th>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+
+
+
+        <tr>
+           <td >Theory</td>
+           <td>A+</td>
+           <td>A</td>
+        </tr>
+
+
+        <tr>
+            <th rowspan="2">Chemistry</th>
+            <td>Practical</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+
+
+
+        <tr>
+            <td>Theory</td>
+            <td>A</td>
+            <td>C+</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Physics</th>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        
+        </tr>
+
+
+        <tr>
+            <td>Theory</td>
+            <td>A-</td>
+            <td>A</td>
+        </tr>
+        
+    </table>  
+    
+    
+
+    
+</body>
+</html>
